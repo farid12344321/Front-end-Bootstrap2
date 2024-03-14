@@ -1,0 +1,103 @@
+
+body{
+    margin: 0;
+}
+
+.sidebar{
+   
+    width: 300px;
+    height: 100vh;
+    background-color: #040b14;
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.sidebar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 7px gray;
+}
+
+.sidebar h1{
+    color: white;
+}
+
+.sidebar .icons{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.icons i{
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212431;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.icons i:hover{
+    background-color: rgb(17, 180, 209);
+}
+
+
+.divisions{
+    width: 100%;
+
+}
+
+.divisions ul li{
+   list-style: none;
+    margin-top: 40px;
+}
+
+.divisions ul li a{
+    text-decoration: none;
+}
+
+.divisions ul li a{
+    color: rgb(163, 163, 163);
+}
+
+.divisions ul li a i{
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+
+.divisions li:hover a{
+    color: rgb(255, 255, 255);
+}
+.divisions li:hover a i{
+    color: #149ddd;
+}
+.copyright{
+    height: 80px;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    color: rgb(190, 190, 190);
+}
+.copyright span{
+    color: white;
+}
+.copyright a{
+    text-decoration: none;
+    color: #149ddd;
+}
+
+
+

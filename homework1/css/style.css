@@ -1,0 +1,41 @@
+body{
+    background-color: #0061f2;
+}
+*{
+    box-sizing: border-box;
+}
+
+.form-box{
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.form-box .title{
+    font-size: 28px;
+    padding: 30px;
+    background-color: #f8f8f9;
+}
+
+.form-box form{
+    border-top: 1px solid gainsboro;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+
+.create-accountbtn{
+    width: 680px;
+}
+
+.account{
+    margin-top: 25px;
+    border-top: 1px solid gainsboro;
+    background-color: #f8f8f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account a{
+    margin-top: 20px;
+}
